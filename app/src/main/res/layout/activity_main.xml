@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    <EditText-->
+<!--        android:id="@+id/textEdit"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Input"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_alignParentTop="true"/>-->
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enter"
+        android:text="Enter"
+        android:layout_below="@+id/searchButton"
+        android:layout_centerHorizontal="true"
+
+
+        />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter text here"/>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:scrollbars="vertical">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/addButton"
+        android:onClick="addItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/editText"
+        android:text="Add"/>
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:onClick="removeItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addButton"
+        android:layout_marginLeft="160dp"
+        android:text="Delete"/>
+
+    <Button
+        android:id="@+id/updateButton"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deleteButton"
+        android:layout_marginLeft="160dp"
+        android:text="Update"/>
+
+    <Button
+        android:id="@+id/readButton"
+        android:onClick="updateItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/updateButton"
+        android:layout_marginLeft="160dp"
+        android:text="Read"/>
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/readButton"
+        android:layout_marginLeft="160dp"
+        android:text="Search"/>
+
+</RelativeLayout>
+
+
+
+    <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    xmlns:tools="http://schemas.android.com/tools"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="wrap_content">-->
+
+
+
+
+
+    <!--&lt;!&ndash;    <ListView&ndash;&gt;-->
+    <!--&lt;!&ndash;        android:id="@+id/listView"&ndash;&gt;-->
+    <!--&lt;!&ndash;        android:layout_width="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;        android:layout_height="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;        android:layout_margin="10dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;        android:scrollbars="vertical"&ndash;&gt;-->
+    <!--&lt;!&ndash;        android:layout_below="@+id/textEdit"&ndash;&gt;-->
+    <!--&lt;!&ndash;        android:layout_above="@+id/enter">&ndash;&gt;-->
+
+    <!--&lt;!&ndash;    </ListView>&ndash;&gt;-->
+
+
+
+
+
